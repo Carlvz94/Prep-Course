@@ -244,7 +244,6 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra.length > 1){
     return "Dato incorrecto";
-    /*aeiou*/
     /* switch  (letra){
       caso ’a’;
       caso ’e’;
