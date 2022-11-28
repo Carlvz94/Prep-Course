@@ -244,6 +244,18 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra.length > 1){
     return "Dato incorrecto";
+    /*a*/
+    /* switch  (letra){
+      caso ’a’;
+      caso ’e’;
+      caso ’i’;
+      caso ’o’;
+      caso ’u’;
+      return "Es vocal";
+      brake;
+      default;
+      return "Dato incorrecto";
+            */
     }else if ( letra === "a" || letra === "e" ||  letra === "i" || letra === "o" || letra === "u" || letra === "A" || letra === "E" || letra === "I" || letra === "O" || letra === "U") {
 return "Es vocal";
   }
